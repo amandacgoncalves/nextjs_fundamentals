@@ -1,5 +1,5 @@
 export default function Cabecalho(props) {
-    console.log(props.titulo)
+    //props is for reading only
     return (
         <header>
             <h1>{props.titulo}</h1>
